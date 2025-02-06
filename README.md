@@ -30,3 +30,9 @@ The project uses the ModelNet40 dataset, a widely used benchmark dataset for 3D 
 
 * Computes accuracy and loss during training.
 * Provides 3D visualization of input point clouds.
+
+
+## Usage
+
+1. Prepare the dataset:
+   * Ensure ModelNet40 dataset is available at: <ModelNet40-dataset>
