@@ -35,4 +35,10 @@ The project uses the ModelNet40 dataset, a widely used benchmark dataset for 3D 
 ## Usage
 
 1. Prepare the dataset:
-   * Ensure ModelNet40 dataset is available at: <ModelNet40-dataset>
+   * Ensure ModelNet40 dataset is available at:
+     ```
+     /Datasets/ModelNet40/
+     ```
+     The dataset can be actially accessed using the ```torch_geometric``` module as explained in the Notebook.
+     
+2. Run the Jupyter Notebook, **myPointNetpp.ipynb** to start the training from scratch.
