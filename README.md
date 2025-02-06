@@ -129,6 +129,26 @@ Since the dataset provides only **vertices and faces**, we need to **sample poin
 ## 🚀 Getting Started
 
 ### 🔹 Installation
-Install dependencies:
-```bash
-pip install torch torchvision torchaudio numpy plotly tqdm  
+My Virtual enviroments name is *Heimdall* (insprired from the character that bridges connection between different realms).
+The environment is developed in the ```SOL supercomputer HPC Cluster``` at ASU supercomputing cluster workspace. 
+As foundation Heimdall consist of **Pytorch 2.4.1** with **CUDA 11.8** and **cuDNN 9.3.0** direcly forged from Pytorch and Nvidia channel, and is supported over **Python 3.11.0**. 
+The installation procedure is explained in detail below for future reference.
+
+```
+mamba create -n venv.heimdall -c conda-forge python=3.11.0
+conda install pytorch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1  pytorch-cuda=11.8 -c pytorch -c nvidia
+conda install pyg -c pyg
+```
+
+*For 3D mesh visualization*
+```
+mamba install plotly -c conda-forge
+```
+
+*Mime type rendering requires nbformat>=4.2.0 and installed nbformat=5.10.4 along with tqdm*
+```
+mamba install nbformat -c conda-forge
+mamba install tqdm
+```
+
+
