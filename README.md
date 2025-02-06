@@ -98,6 +98,8 @@ Since the dataset provides only **vertices and faces**, we need to **sample poin
 ### 1. Architecture Overview
 **PointNet++** extends **PointNet** by introducing **hierarchical feature learning**:
 
+![image](https://github.com/user-attachments/assets/bb949835-8c83-4384-bf26-dc1284c3c85c)
+
 - Uses **Set Abstraction Layers** to **downsample** point clouds while capturing local features.
 - Implements **Single-Scale Grouping (SSG)**
 - Adapts to **non-uniform point densities**.
