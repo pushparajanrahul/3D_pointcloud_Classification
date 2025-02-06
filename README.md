@@ -10,17 +10,23 @@ The project uses the ModelNet40 dataset, a widely used benchmark dataset for 3D 
 *Data Exploration*:
 
 * Reads .OFF files to extract vertices and faces.
-Maps dataset categories into a dictionary (hashmap).
-Visualizes 3D point clouds using Plotly.
-Preprocessing:
+* Maps dataset categories into a dictionary (hashmap).
+* Visualizes 3D point clouds using Plotly.
 
-Implements data loaders for ModelNet40.
-Normalizes and converts 3D point data into a structured format.
-PointNet++ Model:
 
-Defines the PointNet++ architecture for classification.
-Trains the model on ModelNet40 data.
-Evaluation & Visualization:
+*Preprocessing*:
 
-Computes accuracy and loss during training.
-Provides 3D visualization of input point clouds.
+* Implements data loaders for ModelNet40.
+* Normalizes and converts 3D point data into a structured format.
+
+
+*PointNet++ Model*:
+
+* Defines the PointNet++ architecture for classification.
+* Trains the model on ModelNet40 data.
+
+
+*Evaluation & Visualization*:
+
+* Computes accuracy and loss during training.
+* Provides 3D visualization of input point clouds.
