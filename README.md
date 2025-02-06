@@ -155,5 +155,5 @@ mamba install tqdm
 
 ## 🚀 References
 
-PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space (Qi et al., 2017)[https://arxiv.org/pdf/1706.02413]
+PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space [Qi et al., 2017](https://arxiv.org/pdf/1706.02413)
 ModelNet40 Dataset (Wu et al., 2015)
