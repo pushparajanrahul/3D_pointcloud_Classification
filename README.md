@@ -23,6 +23,8 @@ The project uses the ModelNet40 dataset, a widely used benchmark dataset for 3D 
 *PointNet++ Model*:
 
 * Defines the PointNet++ architecture for classification.
+  ![image](https://github.com/user-attachments/assets/4b33aedc-08cf-47d7-901b-7acd15e94f3c)
+
 * Trains the model on ModelNet40 data.
 
 
