@@ -9,9 +9,9 @@ The project uses the ModelNet40 dataset, a widely used benchmark dataset for 3D 
 ### Features
 *Data Exploration*:
 
-* Reads .OFF files to extract vertices and faces.
-* Maps dataset categories into a dictionary (hashmap).
-* Visualizes 3D point clouds using Plotly.
+* The pipeline reads .OFF files to extract vertices and faces.
+* The dataset categories are mapped into a dictionary (hashmap).
+* A sample from the ModelNet40 is taken to visualizes the 3D point clouds using ```Plotly```.
 
 
 *Preprocessing*:
